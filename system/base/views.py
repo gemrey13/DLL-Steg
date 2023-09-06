@@ -2,6 +2,8 @@ from django.shortcuts import render
 from PIL import Image
 
 # Create your views here.
+def form(request):
+    return render(request, 'form.html')
 
 
 def gData(data):
