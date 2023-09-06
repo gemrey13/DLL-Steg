@@ -16,7 +16,7 @@ def g_data(data):
 
 
 def modpix(pix, data):
-    datalist = gData(data)
+    datalist = g_data(data)
     length_data = len(datalist)
     img = iter(pix)
 
