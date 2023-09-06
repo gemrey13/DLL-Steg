@@ -1,7 +1,7 @@
 from django.shortcuts import render
+from PIL import Image
 
 # Create your views here.
-from PIL import Image
 
 def gData(data):
 	a = []
