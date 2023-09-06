@@ -3,10 +3,12 @@ from PIL import Image
 
 # Create your views here.
 def form(request):
+    """render the form html."""
     return render(request, 'form.html')
 
 
-def gData(data):
+def g_data(data):
+    """formating to binary."""
     a = []
     for b in data:
         a.append(format(ord(b), '08b'))
